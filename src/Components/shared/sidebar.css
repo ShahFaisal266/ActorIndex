@@ -1,0 +1,16 @@
+/* Default styles for labels */
+.label-md {
+  display: block; /* Display labels by default */
+}
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+  .label-md {
+    display: none; /* Hide labels for mobile view */
+  }
+  
+}
+
+
+
+
